@@ -8,7 +8,7 @@ four different horoscopes:
 * **`kafkaesque`** - Sad. Always ends with the phrase "Your life will be bleak and miserable." 
 * **`planets_in_motion`** - Determined by the movement of planets and stars. Example: "Mercury said to tell you not to call the cops, or else. The stars assume you know what that's all about." 
 
-Each version opens port 5000. The REST endpoint is `host:5000/horoscope/{sign}` with `sign` being one of the twelve (case-insensitive) signs of the zodiac. 
+Each version opens port 3000. The REST endpoint is `host:3000/horoscope/{sign}` with `sign` being one of the twelve (case-insensitive) signs of the zodiac. _Note that the code uses 3000, not Flask's default port of 5000._
 
 The `Dockerfile` is set up to take a `--build-args` parameter named SOURCE. That should be the filename
 you'd like to build for a particular image. So `--build-args SOURCE=kafkaesque.py` will copy that file 

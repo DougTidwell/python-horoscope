@@ -16,6 +16,6 @@ COPY requirements.txt .
 
 RUN pip3 install -r requirements.txt
 
-EXPOSE 5000
+EXPOSE 3000
 
-CMD ["python3", "-m", "flask", "run", "-p", "5000", "--host", "0.0.0.0"]
+CMD ["python3", "-m", "flask", "run", "-p", "3000", "--host", "0.0.0.0"]

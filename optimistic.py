@@ -51,7 +51,7 @@ def getHoroscope(sign):
       )
     case "scorpio":
       return flask.jsonify(
-        horoscopeText="The stars say you should be grateful for all the wonderful friends in your life. ",
+        horoscopeText="The stars say you should be grateful for all the wonderful friends in your life.",
         serviceName="Optimistic",
         css="color: green;"
       )

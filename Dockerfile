@@ -1,4 +1,4 @@
-FROM python:3.11.4-bullseye
+FROM python:3.12.10-bullseye
 
 WORKDIR /horoscope
 
